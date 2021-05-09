@@ -1,0 +1,79 @@
+.social-icons .icon {
+    width: 20px;
+    height: 20px;
+    transition: fill var(--animation);
+
+}
+
+.social-icons-footer .icon-footer {
+  width: 20px;    
+  height: 20px;
+  transition: fill var(--animation);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    transition: fill var(--animation);
+    
+}
+
+.social-icons-footer {
+  display: flex;
+  transition: background-color var(--transition-whole);
+}
+.connection {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color var(--transition-whole);
+}
+
+.social-icons-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  transition: background-color var(--transition-whole);
+}
+
+.social-icons-link-footer:hover {
+   color: var(--accent-color);
+   transition: background-color var(--transition-whole); 
+}
+
+
+
+.social-icons-item + .social-icons-item {
+    margin-left: 10px;
+}
+.social-icons-link:hover,
+  .social-icons-link:focus {
+      background-color: var(--accent-color);
+  }
+
+  .social-icons-link:hover .icon,
+  .social-icons-link:focus .icon {
+    fill: #fff;
+  }
+
+  .social-icons-link-footer:hover,
+  .social-icons-link-footer:focus {
+    background-color: var(--accent-color);
+  }
+
+  .social-icons-link:hover .icon-smartfone,
+  .social-icons-link:focus .icon-smartfone {
+      fill: var(--accent-color)
+  }

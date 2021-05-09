@@ -5,15 +5,17 @@
 @import"./components/button";
 @import"./components/link";
 @import"./components/menu";
+@import"./components/socials-list";
+@import"./components/social-icon";
+@import"./components/logo.scss";
+@import"./components/icon";
 
 
 
 .list,
 .list-command {
     list-style: none;    
-  }
-
-  
+  }  
 
 .title {
     font-weight: 900;
@@ -29,118 +31,16 @@
 
 
   
-  .social-icons .icon {
-      width: 20px;
-      height: 20px;
-      transition: fill var(--animation);
-
-  }
-
-  .social-icons-footer .icon-footer {
-    width: 20px;    
-    height: 20px;
-    transition: fill var(--animation);
-}
-
-  .social-icons {
-      display: flex;
-      justify-content: center;
-      transition: fill var(--animation);
-      
-  }
-
-  .social-icons-footer {
-    display: flex;
-    transition: background-color var(--transition-whole);
-}
-.connection {
-    display: flex;
-    flex-direction: column;
-}
-
-  .social-icons-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    transition: background-color var(--transition-whole);
-  }
-
-  .social-icons-link-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);;
-    border-radius: 50%;
-    transition: background-color var(--transition-whole);
-  }
-
-  .social-icons-link-footer:hover {
-     color: var(--accent-color);
-     transition: background-color var(--transition-whole); 
-  }
-
   
-
-  .social-icons-item + .social-icons-item {
-      margin-left: 10px;
-  }
-
-  .icon,
-  .client-icon {
-      fill: var(--icon-color);    
-  }
-
-  .icon-footer {
-    fill: var(--icon-footer-color);
-    transition: fill var(--transition-whole);
-  }
+  
 
   .list-command a {
       color:#fff;
   }
 
-  .social-icons-link:hover,
-  .social-icons-link:focus {
-      background-color: var(--accent-color);
-  }
+  
 
-  .social-icons-link:hover .icon,
-  .social-icons-link:focus .icon {
-    fill: #fff;
-  }
-
-  .social-icons-link-footer:hover,
-  .social-icons-link-footer:focus {
-    background-color: var(--accent-color);
-  }
-
-  .letter-link:hover .icon-letter,
-  .letter-link:focus .icon-letter {
-      fill: var(--accent-color)
-  }
-
-  .smartfone-link:hover .icon-smartfone,
-  .smartfone-link:focus .icon-smartfone {
-      fill: var(--accent-color)
-  }
-
-  .letter-link {
-   
-    margin-right: 10px;  
-    width: 16px;
-    height: 16px;
-  } 
-
-  .smartfone-link {
-    margin-right: 10px;  
-    width: 16px;
-    height: 16px; 
-  }
+  
   
 
   .letter {
@@ -148,10 +48,7 @@
     align-items: center;
   }
 
-  .social-icons-link:hover .icon-smartfone,
-  .social-icons-link:focus .icon-smartfone {
-      fill: var(--accent-color)
-  }
+  
 
   .clients {
       display: flex;
@@ -165,47 +62,9 @@
       margin-left: 30px;
   }
 
-  .client-icon-link:hover,
-  .client-icon-link:focus {
-    border: 1px solid var(--accent-color);  
-  }  
-
-  .client-icon-link:hover .client-icon,
-  .client-icon-link:focus .client-icon {
-    fill: var(--accent-color);
-    transition: color var(--transition-whole);  
-  }
-
-  .icon {
-    transition: fill var(--transition-whole);
-  }
   
-  .client-icon {
-    display: flex;
-    max-height: 45px;
-  }
 
-
-  .client-icon-link {
-    display: flex;
-    align-items: center;  
-    width: 170px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    transition: color var(--transition-whole);
-    
-}
-
-.clients-icon-link .icon {
-    fill: currentColor;
-}
-
-.icon .client-icon {
-    fill: var(--icon-color);
-}
+  
 
   .clients-block {
       padding-top: 94px;
@@ -214,29 +73,7 @@
 
 
 
-  .header__logo,
-  .logo-footer {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;       
-    letter-spacing: 0.03em;
-    
-  }
-
-  .header__logo {
-    margin-right: 93px;
-    color: var(--main-text-color);
-  }
-
-  .logo-footer {    
-    color: var( --text-button);
-  }
-
-  .logo-web {
-    color: var(--accent-color);
-}
+  
 
 .hero {    
     display: flex;
@@ -413,13 +250,9 @@
         display: flex;
         align-items: center;        
         background-color: #FFFFFF;
-        border-bottom: 1px solid #ECECEC;
-        
+        border-bottom: 1px solid #ECECEC;        
                
-    }
-
-    
-                    
+    }              
     
 
     .navigation {
@@ -427,15 +260,6 @@
         align-items: center;
                
     }
-
-
-    
-
-    .header__logo {
-        align-items: center; 
-    }
-
-   
     
 
     .list-mark {
@@ -664,17 +488,7 @@
         align-items: center;
     }
 
-    .icon-letter {
-        margin-right: 10px;
-        width: 16px;
-        height: 16px;
-    }
-
-    .icon-smartfone {
-        margin-right: 10px;
-        width: 16px;
-        height: 16px;
-    }
+    
     
     /*Портфолио*/
 
@@ -898,9 +712,7 @@
         transition: var(--transition-transform);
     }
 
-    .btn-close:hover .btn-close-icon{
-        fill: var(--accent-color);
-    }
+    
 
     /*.is-hidden .modal {
         transform: translate(0, -100%) scale(0.2);

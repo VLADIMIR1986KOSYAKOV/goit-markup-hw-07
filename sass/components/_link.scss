@@ -102,3 +102,25 @@
     color: var(--mailto-footer);
     transition: color var(--animation);
 }
+.letter-link:hover .icon-letter,
+  .letter-link:focus .icon-letter {
+      fill: var(--accent-color)
+  }
+
+  .smartfone-link:hover .icon-smartfone,
+  .smartfone-link:focus .icon-smartfone {
+      fill: var(--accent-color)
+  }
+
+  .letter-link {
+   
+    margin-right: 10px;  
+    width: 16px;
+    height: 16px;
+  } 
+
+  .smartfone-link {
+    margin-right: 10px;  
+    width: 16px;
+    height: 16px; 
+  }

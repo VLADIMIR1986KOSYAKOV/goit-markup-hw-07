@@ -278,6 +278,28 @@ address {
   transition: color var(--animation);
 }
 
+.letter-link:hover .icon-letter,
+.letter-link:focus .icon-letter {
+  fill: var(--accent-color);
+}
+
+.smartfone-link:hover .icon-smartfone,
+.smartfone-link:focus .icon-smartfone {
+  fill: var(--accent-color);
+}
+
+.letter-link {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.smartfone-link {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
 .menu__decor::after {
   position: absolute;
   display: flex;
@@ -334,19 +356,11 @@ address {
   margin-right: 0;
 }
 
-.list,
-.list-command {
-  list-style: none;
-}
-
-.title {
-  font-weight: 900;
-  font-size: 44px;
+.socials-list {
+  font-weight: 600;
+  font-size: 11px;
   line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--title-color);
   transition: color var(--animation);
 }
 
@@ -408,20 +422,6 @@ address {
   margin-left: 10px;
 }
 
-.icon,
-.client-icon {
-  fill: var(--icon-color);
-}
-
-.icon-footer {
-  fill: var(--icon-footer-color);
-  transition: fill var(--transition-whole);
-}
-
-.list-command a {
-  color: #fff;
-}
-
 .social-icons-link:hover,
 .social-icons-link:focus {
   background-color: var(--accent-color);
@@ -437,48 +437,46 @@ address {
   background-color: var(--accent-color);
 }
 
-.letter-link:hover .icon-letter,
-.letter-link:focus .icon-letter {
-  fill: var(--accent-color);
-}
-
-.smartfone-link:hover .icon-smartfone,
-.smartfone-link:focus .icon-smartfone {
-  fill: var(--accent-color);
-}
-
-.letter-link {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-
-.smartfone-link {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-
-.letter {
-  display: flex;
-  align-items: center;
-}
-
 .social-icons-link:hover .icon-smartfone,
 .social-icons-link:focus .icon-smartfone {
   fill: var(--accent-color);
 }
 
-.clients {
-  display: flex;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
+.header__logo,
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.client-item + .client-item {
-  margin-left: 30px;
+.header__logo {
+  margin-right: 93px;
+  color: var(--main-text-color);
+}
+
+.logo-footer {
+  color: var(--text-button);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.header__logo {
+  align-items: center;
+}
+
+.icon,
+.client-icon {
+  fill: var(--icon-color);
+}
+
+.icon-footer {
+  fill: var(--icon-footer-color);
+  transition: fill var(--transition-whole);
 }
 
 .client-icon-link:hover,
@@ -521,32 +519,62 @@ address {
   fill: var(--icon-color);
 }
 
+.icon-letter {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-smartfone {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.btn-close:hover .btn-close-icon {
+  fill: var(--accent-color);
+}
+
+.list,
+.list-command {
+  list-style: none;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: color var(--animation);
+}
+
+.list-command a {
+  color: #fff;
+}
+
+.letter {
+  display: flex;
+  align-items: center;
+}
+
+.clients {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.client-item + .client-item {
+  margin-left: 30px;
+}
+
 .clients-block {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.header__logo,
-.logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.header__logo {
-  margin-right: 93px;
-  color: var(--main-text-color);
-}
-
-.logo-footer {
-  color: var(--text-button);
-}
-
-.logo-web {
-  color: var(--accent-color);
 }
 
 .hero {
@@ -715,10 +743,6 @@ address {
 
 .navigation {
   display: flex;
-  align-items: center;
-}
-
-.header__logo {
   align-items: center;
 }
 
@@ -935,18 +959,6 @@ address.link-mailto {
   align-items: center;
 }
 
-.icon-letter {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-
-.icon-smartfone {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-
 /*Портфолио*/
 .portfolio-section {
   padding-top: 94px;
@@ -1146,10 +1158,6 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: var(--transition-transform);
-}
-
-.btn-close:hover .btn-close-icon {
-  fill: var(--accent-color);
 }
 
 /*.is-hidden .modal {
