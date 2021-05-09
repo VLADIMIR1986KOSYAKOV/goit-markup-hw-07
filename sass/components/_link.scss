@@ -1,0 +1,104 @@
+.link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-whole);
+    }
+    .link-mailto:hover,
+    .link-mailto:focus {
+      stroke: currentColor;
+    }
+.link.current{
+    color: var(--accent-color)   
+}
+
+.link:hover,
+.link:focus
+{
+    color: var(--accent-color);
+    transition: color var(--transition-whole);
+}
+
+.link .mailto-footer:hover{
+    color: var(--accent-color);
+}
+.link .mailto-footer:focus{
+    color: var(--accent-color);
+}
+
+.link .logo:hover{
+    color: var(--accent-color);
+}
+.link .logo:focus{
+    color: var(--accent-color);
+}
+
+.link .logo-footer:hover{
+    color: var(--accent-color);
+}
+.link .logo-footer:focus{
+    color: var(--accent-color);
+}
+
+.mailto-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
+    transition:  color var(--animation);
+}
+
+
+.menu-link {
+    display: flex;
+    transition: color var(--animation);
+    margin-left: auto;
+}
+.link-mailto {
+    
+    display: flex;
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color);    
+}
+
+.link-mailto:last-child {
+    margin-right: 0;
+}
+
+
+.link-mailto:hover .icon-letter,
+.link-mailto:focus .icon-letter {
+    fill: var(--accent-color); 
+}
+
+.link-tel:hover .icon-smartfone,
+.link-tel:focus .icon-smartfone {
+    fill: var(--accent-color); 
+}
+
+
+.list-link {
+    margin-right: 50px;
+    align-items: center;
+    transition: color var(--animation);
+}
+
+.link-tel {
+    display: block;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color);
+    transition: color var(--animation);
+}
+
+.tel-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
+    transition: color var(--animation);
+}
