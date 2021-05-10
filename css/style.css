@@ -660,6 +660,20 @@ address {
   --grid-item: 3;
 }
 
+.section-mark {
+  padding: 94px;
+}
+
+.doing-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list,
 .list-command {
   list-style: none;
@@ -712,10 +726,6 @@ address {
   background-position: center;
 }
 
-.section-mark {
-  padding: 94px;
-}
-
 .page-list-command {
   font-weight: normal;
   font-size: 16px;
@@ -761,16 +771,6 @@ address {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--page-portfolio);
-}
-
-.page-header {
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #ECECEC;
 }
 
 .navigation {
@@ -819,11 +819,6 @@ address {
 
 .list-mark .list-mark__mark-item + .list-mark__mark-item {
   margin-left: 30px;
-}
-
-.doing-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list {
@@ -954,12 +949,6 @@ address.link-mailto {
 .smartfone {
   display: flex;
   align-items: center;
-}
-
-/*Портфолио*/
-.portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .filter-list {
