@@ -9,25 +9,15 @@
 @import"./components/social-icon";
 @import"./components/logo";
 @import"./components/icon";
+@import"./components/title";
+@import"./layouts/grid";
 
 
 
 .list,
 .list-command {
     list-style: none;    
-  }  
-
-.title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;       
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;    
-    color: #FFFFFF;
-    transition: color var(--animation);
-}
-  
+  }   
 
   .list-command a {
       color:#fff;
@@ -92,91 +82,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.title-section {
-    background-color: #2F303A;
-
-}
-
-
-.title-hero {
-    margin-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-     
-}
-
-
-
-    .list-title {
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-    .page-list-title {
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: #757575;
-    }
-
-    .page-title {
-        
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        min-width: 380px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        color: #212121;
-    }
-
-    .ourdeel {
-        position: absolute;
-        width: 1170px;
-        height: 386px;
-        left: 215px;
-        top: -50px;
-    }
-
-    .section-ourdeel {
-        position: relative;
-    }
+}    
 
     .section-mark {
         padding: 94px;
-    }
-
-    .title-list-command {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;        
-        letter-spacing: 0.03em;
-        color: #212121;
-    }
-
-    .title-list-blok {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        text-align: center;
-    }
+    }   
 
     .page-list-command {
         font-weight: normal;
@@ -219,13 +129,7 @@
         color: var(--link-mailto-footer);
     }
 
-    .page-title-portfolio {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 2.0;
-        letter-spacing: 0.06em;
-        color: var(--page-title-portfolio);
-    }
+    
 
     .page-portfolio {        
         font-size: 16px;
@@ -309,23 +213,7 @@
         list-style-type: none;
     }   
       
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -30px;
-        margin-top: -30px;        
-      }
-      
-      .grid__grid-item
-       {
-        flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
-        
-        margin-top: 30px;
-      }
-
-      .grid__about-item {
-        --grid-item: 3;
-      }
+   
 
       .doing-thumb {
         position: relative;
@@ -349,19 +237,7 @@
     }
 
 
-      .whatwe-do-title {
-        display: flex;
-        margin-bottom: 50px;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        align-items: center;
-        letter-spacing: 0.03em;
-        }
-
-        .title {
-            color: var(--title-color);
-          }
+     
           
     
     
@@ -411,10 +287,7 @@
         margin-left: 30px;
     }
 
-    .title-list-command,
-    .page-list-command {
-        text-align: center;
-    }
+    
 
     .page-list-command {
         margin-top: 10px;
@@ -636,15 +509,6 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 
-    .page-title-portfolio,
-    .page-portfolio {
-        width: 322px;
-        
-    }
-
-    .page-title-portfolio {
-     margin-bottom: 4px;
-    }
     
 
     .portfolio-blok {
@@ -716,7 +580,7 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 20px;        
         line-height: 1.15;
         text-align: center;
         letter-spacing: 0.03em;
