@@ -13,16 +13,11 @@
 @import"./layouts/grid";
 @import"./layouts/section";
 @import"./layouts/header";
+@import"./layouts/footer";
+@import"./components/list";
 
 
-.list,
-.list-command {
-    list-style: none;    
-  }   
 
-  .list-command a {
-      color:#fff;
-  }
 
   
   .letter {
@@ -78,18 +73,9 @@
 
       
 
-    .page-list-command {
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;
-        color: #757575;
-    }
+    
 
-    .footer {
-        background-color: #2F303A;
-        
-        }
+    
 
     .page-adress {
         margin-bottom: 9px;
@@ -110,14 +96,7 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .link .tel-footer {
-        display: block;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.71;      
-        letter-spacing: 0.03em;
-        color: var(--link-mailto-footer);
-    }
+    
 
     
 
@@ -138,58 +117,7 @@
     }
     
 
-    .list-mark {
-        display: flex;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-
-    .list-mark__mark-item {
-        width: 270px;        
-    }
-
-    .list-mark__mark-item::before{
-        content: "";
-        display: block;
-        height: 120px;        
-        background-repeat: no-repeat;
-        background-size: 70px 70px;
-        background-position: center;
-        background-color: #F5F4FA;
-        border-radius: 4px;
-        margin-bottom: 30px;
-    }
-
-    .list-mark__mark-item:nth-child(1)::before {        
-        background-image: url(../images/studio/mark-items/antenna.svg);
-    }
-
-    .list-mark__mark-item:nth-child(2)::before {
-        background-image: url(../images/studio/mark-items/clock.svg);
-    }
-
-    .list-mark__mark-item:nth-child(3)::before {
-        background-image: url(../images/studio/mark-items/diagram.svg);
-    }
-
-    .list-mark__mark-item:nth-child(4)::before {
-        background-image: url(../images/studio/mark-items/astronaut.svg);
-    }
-
-    .list-mark .list-mark__mark-item +.list-mark__mark-item {
-        margin-left: 30px;
-    } 
-
     
-
-    .list {
-        list-style: none;
-        list-style-position: initial;
-        list-style-image: initial;
-        list-style-type: none;
-    }   
       
    
 
@@ -219,20 +147,13 @@
           
     
     
-    .list-work {
-        display: flex;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
     .work-item {
         width: 370px;
     }
 
-    .list-work .work-item +.work-item {
-        margin-left: 30px;
-    }
+    
 
     .container-mark-work {
         padding-top: 94px;
@@ -245,12 +166,7 @@
         background-color: #F5F4FA;
     }
 
-    .list-command {
-        display: flex;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
     .command-item {
         width: 270px;
@@ -260,34 +176,7 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     }
-
-    .list-command .command-item +.command-item {
-        margin-left: 30px;
-    }
-
     
-
-    .page-list-command {
-        margin-top: 10px;
-        margin-bottom: 16px;
-    }
-
-    .footer__container {
-        width: 231px;
-        margin-right: 70px;
-        
-         }
-
-         .footer-blok {
-             display: flex;
-         }
-
-    .footer__link.link {
-        margin-bottom: 20px;
-        transition: fill var(--animation);
-        transition: background-color var(--transition-whole);
-    }
-
     .adress {
         margin-top: 20px;
     }
@@ -300,25 +189,11 @@
         margin-top: 9px;
     }
 
-    .footer {
-        
-        padding-top: 60px;
-        padding-bottom: 60px;       
-        
-    }
+    
 
 
     
-    .page-footer {
-        margin-bottom: 20px;;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
+    
 
     .letter {
         display: flex;
@@ -331,26 +206,14 @@
     }
   
 
-    .filter-list {
-        display: flex; 
-        justify-content: center;
-        margin-bottom: 50px;             
-    }
-
-    .filter-list .filter-item + .filter-item {
-        margin-left: 8px;      
-    }
+    
     img {
         max-width: 100%;
         display: block;
         height: auto;
     }    
 
-    .cards-list {
-        display: flex;        
-        flex-wrap: wrap;        
-        margin: -15px;       
-    }
+    
     .examples__item {
         width: 370px;
         margin: 15px;
@@ -811,14 +674,7 @@
         margin-top: 30px;
     }
 
-    .footer-mailing {
-        margin-left: 110px;
-        min-width: 300px;
-    }
-
-    .form-footer {
-        display: flex;
-    }
+    
 
     .signup-input {        
         width: 358px;
