@@ -442,16 +442,6 @@ address {
   fill: var(--accent-color);
 }
 
-.header__logo,
-.logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
 .header__logo {
   margin-right: 93px;
   color: var(--main-text-color);
@@ -857,11 +847,6 @@ address {
   margin: -15px;
 }
 
-.letter {
-  display: flex;
-  align-items: center;
-}
-
 .clients {
   display: flex;
   width: 1200px;
@@ -877,6 +862,11 @@ address {
 .clients-block {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.letter {
+  display: flex;
+  align-items: center;
 }
 
 .hero {
@@ -984,11 +974,6 @@ address.link-mailto {
 .blok {
   display: block;
   margin-top: 9px;
-}
-
-.letter {
-  display: flex;
-  align-items: center;
 }
 
 .smartfone {
