@@ -1335,6 +1335,7 @@ textarea {
 
 .grid__about-item {
   --grid-item: 3;
+  margin-left: 30px;
 }
 
 .section-mark {
