@@ -5,6 +5,7 @@
 @import"./base/common";
 @import"./base/container";
 
+@import"./components/adress";
 @import"./components/button";
 @import"./components/link";
 @import"./components/menu";
@@ -20,6 +21,7 @@
 @import"./components/page";
 @import"./components/cards";
 @import"./components/text";
+@import"./components/item";
 
 @import"./layouts/grid";
 @import"./layouts/section";
@@ -27,35 +29,12 @@
 @import"./layouts/footer";
 @import"./layouts/hero";
 
-
-
-      
-
-    .work-item {
-        width: 370px;
-    }
-
     .teem {
         padding-top: 94px;
         padding-bottom: 94px;
         background-color: #F5F4FA;
     }
 
-    .command-item {
-        width: 270px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-         0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-    }
-    
-    .adress {
-        margin-top: 20px;
-    }
-    address.link_mailto {
-        font-style: normal;        
-    }    
 
     .blok {
         display: block;
@@ -67,19 +46,6 @@
         align-items: center;
     }
   
-    img {
-        max-width: 100%;
-        display: block;
-        height: auto;
-    }    
-
-    
-    .examples__item {
-        width: 370px;
-        margin: 15px;
-    }
-
-    
 
     .examples-link:hover,
     .examples-link:focus {
@@ -382,12 +348,7 @@
         text-align: start;
         display: inline-block;
       }
-      /*.custom-checkbox {
-        position: relative;  
-        display: flex;
-        align-items: center;
-        padding-left: 37px;
-      }*/
+     
 
       .form-checkbox {
           position: relative;
