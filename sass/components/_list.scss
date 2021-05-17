@@ -23,19 +23,18 @@
 }
 
 .list-mark__mark-item {
-    width: 270px;        
-}
-
-.list-mark__mark-item::before{
-    content: "";
-    display: block;
-    height: 120px;        
-    background-repeat: no-repeat;
-    background-size: 70px 70px;
-    background-position: center;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
+    width: 270px; 
+    &::before{
+        content: "";
+        display: block;
+        height: 120px;        
+        background-repeat: no-repeat;
+        background-size: 70px 70px;
+        background-position: center;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }       
 }
 
 .list-mark__mark-item:nth-child(1)::before {        

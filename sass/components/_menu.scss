@@ -29,7 +29,7 @@
     
 }
 
-.menu__activ-studio::after {
+/*.menu__activ-studio::after {
     position: absolute;
     display: flex;
     background-color: var(--accent-color);
@@ -39,11 +39,22 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-}
+}*/
 
 .menu__activ-studio {
     padding-top: 32px;
     padding-bottom: 32px;
+    &::after {
+        position: absolute;
+        display: flex;
+        background-color: var(--accent-color);
+        content: '';
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+    }
 }
 
 .menu__decor {
