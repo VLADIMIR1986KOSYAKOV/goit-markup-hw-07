@@ -76,6 +76,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .teem {
@@ -372,7 +373,6 @@ address {
 
 .menu {
   display: flex;
-  margin-left: 93px;
   align-items: center;
 }
 
@@ -1343,7 +1343,6 @@ textarea {
 }
 
 .doing-section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
