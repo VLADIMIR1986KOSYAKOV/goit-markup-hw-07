@@ -1,20 +1,15 @@
-
-
   .header__logo {
     margin-right: 93px;
     color: var(--main-text-color);
-  }
-
-  .logo__footer {    
-    color: var( --text-button);
+    align-items: center;
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 
   .logo-web {
     color: var(--accent-color);
-}
-
-.header__logo {
-    align-items: center; 
 }
 
 .logo__footer {
@@ -24,19 +19,13 @@
   font-size: 26px;
   line-height: 1.19;       
   letter-spacing: 0.03em;
+  color: var( --text-button);
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+  }
   
 }
 
-.link .logo:hover{
-  color: var(--accent-color);
-}
-.link .logo:focus{
-  color: var(--accent-color);
-}
 
-.link .logo-footer:hover{
-  color: var(--accent-color);
-}
-.link .logo-footer:focus{
-  color: var(--accent-color);
-}
+
