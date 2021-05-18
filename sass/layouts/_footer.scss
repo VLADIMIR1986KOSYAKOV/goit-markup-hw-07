@@ -1,6 +1,5 @@
 .footer {
-    background-color: #2F303A;
-    
+    background-color: #2F303A;    
     }
 
     .link .tel-footer {
@@ -13,12 +12,11 @@
     }
     .footer__container {
         width: 231px;
-        margin-right: 70px;
-        
+        margin-right: 70px;        
     }
 
     .footer-blok {
-             display: flex;
+         display: flex;
     }
 
     .footer__link.link {
@@ -26,8 +24,7 @@
         transition: fill var(--animation);
         transition: background-color var(--transition-whole);
     }
-    .footer {
-        
+    .footer {        
         padding-top: 60px;
         padding-bottom: 60px;       
         
