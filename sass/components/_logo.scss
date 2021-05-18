@@ -26,3 +26,17 @@
   letter-spacing: 0.03em;
   
 }
+
+.link .logo:hover{
+  color: var(--accent-color);
+}
+.link .logo:focus{
+  color: var(--accent-color);
+}
+
+.link .logo-footer:hover{
+  color: var(--accent-color);
+}
+.link .logo-footer:focus{
+  color: var(--accent-color);
+}

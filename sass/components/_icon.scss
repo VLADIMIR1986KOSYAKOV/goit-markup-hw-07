@@ -1,22 +1,12 @@
 .icon,
-  .client-icon {
+.client-icon {
       fill: var(--icon-color);    
   }
 
   .icon-footer {
     fill: var(--icon-footer-color);
     transition: fill var(--transition-whole);
-  }
-  .client-icon-link:hover,
-  .client-icon-link:focus {
-    border: 1px solid var(--accent-color);  
   }  
-
-  .client-icon-link:hover .client-icon,
-  .client-icon-link:focus .client-icon {
-    fill: var(--accent-color);
-    transition: color var(--transition-whole);  
-  }
 
   .icon {
     transition: fill var(--transition-whole);
@@ -38,8 +28,17 @@
     box-sizing: border-box;
     border-radius: 4px;
     transition: color var(--transition-whole);
-    
-}
+
+    &:hover .client-icon,
+    &:focus .client-icon {
+    fill: var(--accent-color);
+    transition: color var(--transition-whole);  
+    }
+    &:hover,
+    &:focus {
+    border: 1px solid var(--accent-color);  
+    }     
+  }
 
 .clients-icon-link .icon {
     fill: currentColor;
